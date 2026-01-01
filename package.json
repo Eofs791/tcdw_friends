@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "preview": "bun run index.ts",
-    "deploy": "bun run index.ts --deploy"
+    "deploy": "bun run index.ts --deploy",
+    "healthcheck": "bun run healthcheck.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
