@@ -1,4 +1,4 @@
-import friends from "./friends.json";
+import { parse } from "smol-toml";
 
 interface FriendItem {
   name: string;
@@ -50,8 +50,9 @@ ${listItems}
 }
 
 async function generateHtml(): Promise<string> {
-  const data = friends as FriendsData;
-  const footer = await Bun.file("./footer.html").text();
+  const tomlContent = await Bun.file("./friends.toml").text();
+  const data = parse(tomlContent) as unknown as FriendsData;
+  const footer = await Bun.file("./templates/footer.html").text();
 
   const sections = [
     renderSection("博客", data.blogs),
