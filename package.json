@@ -1,0 +1,16 @@
+{
+  "name": "friends",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "preview": "bun run index.ts",
+    "deploy": "bun run index.ts --deploy"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
