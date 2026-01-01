@@ -364,6 +364,12 @@ url = "https://chentao0717.cn/"
 avatar = "https://avatars.githubusercontent.com/u/70054568?v=4&s=140"
 description = "Keep Coding, Keep Learning."
 
+[[blogs]]
+name = "Pleasurecruise"
+url = "https://yiming1234.cn"
+avatar = "https://avatars.githubusercontent.com/u/144885467?v=4&s=140"
+description = "Any shortcomings are kindly overlooked."
+
 [[nonBlogs]]
 name = "三千院の暗"
 url = "http://moe.lu"
