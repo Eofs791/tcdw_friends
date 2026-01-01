@@ -352,6 +352,18 @@ url = "https://www.mengxiblog.top"
 avatar = "https://avatars.githubusercontent.com/u/106070298?v=4&s=140"
 description = "即使是人造的记忆，也有它存在的价值"
 
+[[blogs]]
+name = "薄荷の小屋"
+url = "https://www.hoshiroko.com"
+avatar = "https://secure.gravatar.com/avatar/c5ed321913c6237263cd33e49329048939aea14cc7b8ab40fcca914ea54f1690?s=140&r=g"
+description = "越是拼命往前伸手，渴望之物越是渐行渐远"
+
+[[blogs]]
+name = "槑囿脑袋"
+url = "https://chentao0717.cn/"
+avatar = "https://avatars.githubusercontent.com/u/70054568?v=4&s=140"
+description = "Keep Coding, Keep Learning."
+
 [[nonBlogs]]
 name = "三千院の暗"
 url = "http://moe.lu"
