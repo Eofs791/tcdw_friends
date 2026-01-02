@@ -370,6 +370,12 @@ url = "https://yiming1234.cn"
 avatar = "https://avatars.githubusercontent.com/u/144885467?v=4&s=140"
 description = "Any shortcomings are kindly overlooked."
 
+[[blogs]]
+name = "Catarium"
+url = "https://eofs791.github.io"
+avatar = "https://avatars.githubusercontent.com/u/91895588?s=140&r=g"
+description = "见崎的猫箱"
+
 [[nonBlogs]]
 name = "三千院の暗"
 url = "http://moe.lu"
